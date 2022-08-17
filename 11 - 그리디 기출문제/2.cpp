@@ -17,3 +17,6 @@ int main(void){
     }
     cout << total << '\n';
 }
+
+
+#https://github.com/ndb796/python-for-coding-test/blob/master/11/2.cpp 
