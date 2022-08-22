@@ -19,4 +19,4 @@ int main(void){
 }
 
 
-#https://github.com/ndb796/python-for-coding-test/blob/master/11/2.cpp 
+//https://github.com/ndb796/python-for-coding-test/blob/master/11/2.cpp 
