@@ -21,3 +21,10 @@ int main(void){
 
     return 0;
 }
+
+//https://github.com/ndb796/python-for-coding-test/blob/master/12/2.cpp
+//vector<char> result;
+//         if (isalpha(str[i])) { 
+//             result.push_back(str[i]);
+//         }
+//숫자 존재하는지 아닌지 체크해야함
