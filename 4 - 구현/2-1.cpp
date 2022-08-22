@@ -19,4 +19,4 @@ int main(void){
     cout << count << '\n';
 }   
 
-#https://github.com/ndb796/python-for-coding-test/blob/master/4/2.cpp
+//https://github.com/ndb796/python-for-coding-test/blob/master/4/2.cpp
