@@ -24,7 +24,7 @@ for i in range(N):
             timeList.append(int(reserveList[j].split( )[1]))
             timeList.append(int(reserveList[j].split( )[2]))
     if not timeList:
-        print("1 available\n09-18")
+        print("1 available:\n09-18")
 
     else:
         timeList.sort()
