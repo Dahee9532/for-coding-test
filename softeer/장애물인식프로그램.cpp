@@ -42,6 +42,7 @@ int main(){
     }
   }
   cout << info.size() << '\n';
+  sort(info.begin(), info.end());
   for(int i = 0; i < info.size(); i++){
 	  cout << info[i] << '\n';
   }
