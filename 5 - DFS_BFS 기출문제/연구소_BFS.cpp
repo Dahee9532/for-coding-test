@@ -16,7 +16,7 @@ void bfs(int x, int y){
 
     for(int i = 0; i < N; i++){
         for(int j = 0; j < M; j++){
-            if(graph[i][j] == 2) q.push(make_pair(i, j));
+            if(graph[i][j] == 2) q.push(make_pair(i, j));//그래프에서 2이면 큐에 push
         }
     }
 
@@ -28,7 +28,7 @@ void bfs(int x, int y){
             int nx = x + dx[i];
             int ny = y + dy[i];
             if(nx < 0 || nx >= N || ny < 0 || ny >= M) continue;
-            if(graph[nx][ny] == 0){
+            if(graph[nx][ny] == 0){//0일때 2로 바꾸고 좌표를 큐에 push
                 graph[nx][ny] = 2;
                 q.push(make_pair(nx, ny));
             }
