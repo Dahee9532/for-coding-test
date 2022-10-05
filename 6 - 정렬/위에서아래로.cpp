@@ -19,6 +19,6 @@ int main(void){
     sort(num.begin(), num.end(), compare);
 
     for(int i = 0; i < N; i++){
-        cout << num[i] << '\n';
+        cout << num[i] << ' ';
     }
 }
