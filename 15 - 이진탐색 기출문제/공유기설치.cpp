@@ -5,8 +5,6 @@ using namespace std;
 int n, c;
 vector<int> arr;
 
-
-
 // Start = 1
 // End = 8
 // Mid = 4
@@ -41,7 +39,6 @@ vector<int> arr;
 
 // Start = 4
 // Result = 3
-
 
 int main(){
     cin >> n >> c;
